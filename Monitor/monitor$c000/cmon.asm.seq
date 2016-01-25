@@ -1,0 +1,1 @@
+;.OPT NOLIST;********************************;;        MONITOR$C000;   MONITOR$C000.C64 V072882;   MACHINE LANGUAGE MONITOR; (C) 1982 BY COMMODORE MACHINES;;  DOCUMENTED BY DENTON MARLOWE;;*********************************=$C000     ;SYS49152;********************************.FIL MON.ASM;********************************.END
