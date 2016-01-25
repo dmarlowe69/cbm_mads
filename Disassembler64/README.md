@@ -1,2 +1,10 @@
 # cbm_mads
-Commodore 64 Maco Assembler Development System
+Commodore 64 Macro Assembler Development System
+
+DISASSEMBER64
+
+BASED ON BOOK, "TOP DOWN ASSEMBLY LANGUAGE PROGRAMMING"
+
+BUILT USING THE CBM MADS
+
+
