@@ -1,0 +1,29 @@
+       Conditional Assembly
+
+  .IFE <expr> assemble if expression equals zero
+  .IFN <expr> assemble if expression not equals zero
+
+  Syntax:
+ 
+  .IFE expr <
+       (whatever)
+  >
+
+     There must be a less-than sign (<) on the line with the  pseudo-op,  and
+the  block  to be conditionally assembled must end with a greater-than in the
+first character (leave the rest of the line blank).
+
+       Example
+
+  1000 DEBUG = 0
+  1010       LDA  33
+  1020       STA CHAR
+  1030       .IFN DEBUG <
+  1040       JSR CHROUT
+  1050       RTS
+  1060 >
+  1070       JMP DOMORE
+
+     The two lines JSR CHROUT / RTS would not be assembled unless  the  value
+of the DEBUG flag was nonzero.
+
